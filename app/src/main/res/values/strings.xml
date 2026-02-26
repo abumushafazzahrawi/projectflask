@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Project Flask</string>
+
+    <!--    Halaman Login-->
+    <string name="masuk">Masuk</string>
+    <string name="login_lanjut">Silahkan login untuk melanjutkan</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="ingat_saya">Ingat Saya</string>
+    <string name="login">Login</string>
+    <string name="lupa_password">Lupa Password?</string>
+
+    <!--    Halaman Register-->
+    <string name="daftar">Daftar</string>
+    <string name="buat_akun_baru_untuk_petik_care">Buat akun baru untuk PeTIK Care</string>
+    <string name="sudah_punya_akun">Sudah punya akun?</string>
+    <string name="username">Username</string>
+    <string name="logout">Logout</string>
+    <string name="halo_user">Halo User</string>
+</resources>

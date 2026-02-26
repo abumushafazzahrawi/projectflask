@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+<!--    Warna isi kotak (putih)-->
+    <solid android:color="#FFFFFF"/>
+
+<!--    Berikan Border yang sangat tipis & abu-abu muda agar tetap terlihat-->
+    <stroke
+        android:width="1dp"
+        android:color="#E0E0E0"/>
+
+<!--    Membuat sudut sedikit melengkung-->
+    <corners android:radius="4dp"/>
+
+<!--    Menentukan ukuran kotak-->
+    <size android:width="20dp" android:height="20dp"/>
+</shape>
