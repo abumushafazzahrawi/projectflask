@@ -62,5 +62,11 @@ class RegisterActivity : AppCompatActivity() {
                 }
             })
         }
+
+        binding.tvMasuk.setOnClickListener {
+            startActivity(Intent(this, LoginActivity::class.java))
+            finish()
+        }
+
     }
 }

@@ -239,7 +239,7 @@
                 app:cardCornerRadius="30dp"
                 app:cardElevation="6dp"
                 app:layout_constraintStart_toEndOf="@id/card_google"
-                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintEnd_toStartOf="@id/card_linkedin"
                 app:layout_constraintTop_toBottomOf="@+id/btn_daftar"
                 android:layout_marginTop="15dp">
 
@@ -247,6 +247,25 @@
                     android:layout_width="50dp"
                     android:layout_height="50dp"
                     android:src="@drawable/ic_facebook"
+                    android:layout_gravity="center"/>
+            </com.google.android.material.card.MaterialCardView>
+
+            <com.google.android.material.card.MaterialCardView
+                android:id="@+id/card_linkedin"
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                app:cardBackgroundColor="@color/white"
+                app:cardCornerRadius="30dp"
+                app:cardElevation="6dp"
+                app:layout_constraintStart_toEndOf="@id/card_facebook"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/btn_daftar"
+                android:layout_marginTop="15dp">
+
+                <ImageView
+                    android:layout_width="60dp"
+                    android:layout_height="60dp"
+                    android:src="@drawable/ic_linkedin"
                     android:layout_gravity="center"/>
             </com.google.android.material.card.MaterialCardView>
 

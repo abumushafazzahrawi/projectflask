@@ -7,7 +7,7 @@ import retrofit2.converter.gson.GsonConverterFactory
 import retrofit2.http.HTTP
 
 object ApiConfig {
-    private const val  BASE_URL = "http://10.0.2.2:5000/"
+    private const val  BASE_URL = "https://curmudgeonly-cotyledonary-jill.ngrok-free.dev"
 
     fun getApiService(): ApiService {
         val logging = HttpLoggingInterceptor()
