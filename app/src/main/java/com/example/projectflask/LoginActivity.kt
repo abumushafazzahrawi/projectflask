@@ -99,5 +99,10 @@ class LoginActivity : AppCompatActivity() {
             val intent = Intent(this, RegisterActivity::class.java)
             startActivity(intent)
         }
+
+        binding.tvLupaPassword.setOnClickListener {
+            val intent = Intent(this, LupaPasswordActivity::class.java)
+            startActivity(intent)
+        }
     }
 }
